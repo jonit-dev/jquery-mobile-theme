@@ -200,9 +200,10 @@ main {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #e44549;
-  text-decoration: none;
   font-size: 1.1rem; }
+  .close-panel .close-panel-icon {
+    color: #e44549;
+    text-shadow: none; }
 
 .ui-page-theme-a .ui-body-inherit {
   background-color: white; }

@@ -1,6 +1,6 @@
 .panel {
   background-color: $dark-pink;
-   
+
 }
 
 .close-panel {
@@ -8,9 +8,12 @@
   top: 1rem;
   right: 1rem;
 
-      color: $dark-pink;
-      text-decoration: none;
       font-size: 1.1rem;
+
+      .close-panel-icon {
+        color: $dark-pink;
+        text-shadow: none;
+      }
 
 }
 
