@@ -1,0 +1,15 @@
+ .ui-page-theme-a .ui-body-inherit {
+  font-size: 0.9rem;
+  color: $dark-gray;
+}
+input[type='text'], input[type='email'] {
+  border-radius: 1rem;
+  box-shadow: none;
+  padding: .5rem;
+  font-size: 0.9rem;
+
+  &::placeholder {
+    color: $gray;
+  }
+
+}

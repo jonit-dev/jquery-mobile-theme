@@ -1,0 +1,95 @@
+.panel {
+  background-color: $dark-pink;
+   
+}
+
+.close-panel {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+      color: $dark-pink;
+      text-decoration: none;
+      font-size: 1.1rem;
+
+}
+
+.ui-page-theme-a .ui-body-inherit {
+  background-color: white;
+}
+
+.ui-page-theme-a .ui-btn.ui-btn-active {
+  background-color: $pink;
+
+  &:active {
+      background-color: $pink;
+  }
+}
+
+.profile-box {
+  background-color: $pink;
+display: block;
+height: 13.2rem;
+margin: -0.9rem;
+padding: 0;
+margin-bottom: 2rem;
+padding-top: 2rem;
+
+  .profile-picture {
+    border-radius: 100%;
+        background-color: gray;
+        height: 125.5px;
+        width: 135px;
+        display: block;
+        margin: 0 auto;
+  }
+
+  .profile-user-title {
+    font-weight: bolder;
+        font-size: 1.3rem;
+        margin-top: 0.7rem;
+        color: white;
+        text-align: center;
+        display: block;
+        text-shadow: none;
+  }
+
+  .profile-user-subtitle {
+
+    color: $pink-light;
+    text-align: center;
+    display: block;
+    text-shadow: none;
+    font-weight: bold;
+  }
+
+
+}
+
+.profile-content {
+  display: block;
+}
+
+.profile-list {
+  list-style-type: none;
+  font-size: 1rem;
+
+  li {
+      font-weight: bold;
+  margin-top: 1.2rem;
+      .profile-list-item {
+        margin-left: .5rem;
+
+      }
+  }
+
+}
+
+
+.profile-filter {
+  display: block;
+}
+.ui-page-theme-a .ui-body-inherit {
+  border-radius: 0 !important;
+
+}

@@ -1,0 +1,53 @@
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  background-color: $dark-pink;
+  border-radius: 0.5rem;
+  border-color: none;
+}
+
+.remove-collapsible-icon {
+ .ui-icon
+{
+
+ display: none;
+
+}
+}
+
+
+.theme-collapsible {
+  margin-top: .5rem;
+  font-family: 'Ubuntu', sans-serif;
+  position:relative;
+margin-bottom: 2rem;
+   .collapsible-title {
+     color: white;
+     text-shadow: none;
+     margin-left: 0.6rem;
+     font-size: 0.9rem;
+   }
+
+    p {
+      font-size: 0.95rem;
+      color: $gray;
+    }
+
+    .ui-field-contain>label {
+      color: $dark-gray;
+
+      font-size: 0.9rem;
+
+      font-weight: bold;
+      margin-top: 1.2rem;
+    }
+
+
+
+}
+
+.collapsible-icon  {
+  position: absolute;
+  left: 0.8rem;
+  top: 0.9rem;
+  color: white;
+  text-shadow: none;
+}

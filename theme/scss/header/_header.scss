@@ -1,0 +1,36 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.ui-page-theme-a .ui-bar-inherit {
+  background-color: $pink;
+  color: white; 
+}
+
+
+
+.ui-header .ui-title {
+  font-size: 1.2rem;
+      padding-top: 2rem;
+      font-weight: normal;
+}
+
+//Icon content-block
+.ui-header .ui-title~.ui-navbar .ui-btn {
+  background-color: $pink;
+  border-color: $dark-pink;
+  color: $dark-pink;
+}
+
+.ui-btn-active {
+    color:white !important;
+
+    .theme-icon {
+      color: white !important;
+    }
+
+}
+
+.ui-page-theme-a .ui-btn:focus {
+  box-shadow: none;
+}

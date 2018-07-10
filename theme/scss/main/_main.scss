@@ -1,0 +1,12 @@
+main {
+  background-color: $feed-bkg-color;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.content-block {
+  flex: 1 1 400px;
+}

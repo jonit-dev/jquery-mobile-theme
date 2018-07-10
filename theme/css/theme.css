@@ -1,0 +1,263 @@
+.btn {
+  background-color: #e44549;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  margin: .5rem;
+  margin-top: 1.7rem;
+  text-align: center;
+  color: white; }
+  .btn:active {
+    background-color: #ff6d71; }
+
+.btn-lg {
+  display: block; }
+
+.icon-menu {
+  color: #e44549;
+  text-shadow: none;
+  font-size: 1.5rem; }
+
+.ui-page-theme-a .ui-btn.ui-btn-active {
+  background-color: none; }
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited,
+.ui-page-theme-a .ui-btn {
+  background-color: transparent;
+  border: none; }
+
+.ui-page-theme-a .ui-body-inherit {
+  font-size: 0.9rem;
+  color: #7d7885; }
+
+input[type='text'], input[type='email'] {
+  border-radius: 1rem;
+  box-shadow: none;
+  padding: .5rem;
+  font-size: 0.9rem; }
+  input[type='text']::placeholder, input[type='email']::placeholder {
+    color: #beb9c1; }
+
+.theme-icon {
+  color: #e44549;
+  border: none;
+  font-size: 1.3rem;
+  padding-bottom: 0.3rem;
+  display: block;
+  text-shadow: none;
+  margin: 0 auto; }
+
+.icon-text {
+  padding-top: 1rem;
+  text-shadow: none; }
+
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+.ui-page-theme-a .ui-bar-inherit {
+  background-color: #ff6c70;
+  color: white; }
+
+.ui-header .ui-title {
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  font-weight: normal; }
+
+.ui-header .ui-title ~ .ui-navbar .ui-btn {
+  background-color: #ff6c70;
+  border-color: #e44549;
+  color: #e44549; }
+
+.ui-btn-active {
+  color: white !important; }
+  .ui-btn-active .theme-icon {
+    color: white !important; }
+
+.ui-page-theme-a .ui-btn:focus {
+  box-shadow: none; }
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  background-color: #e44549;
+  border-radius: 0.5rem;
+  border-color: none; }
+
+.remove-collapsible-icon .ui-icon {
+  display: none; }
+
+.theme-collapsible {
+  margin-top: .5rem;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  margin-bottom: 2rem; }
+  .theme-collapsible .collapsible-title {
+    color: white;
+    text-shadow: none;
+    margin-left: 0.6rem;
+    font-size: 0.9rem; }
+  .theme-collapsible p {
+    font-size: 0.95rem;
+    color: #beb9c1; }
+  .theme-collapsible .ui-field-contain > label {
+    color: #7d7885;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 1.2rem; }
+
+.collapsible-icon {
+  position: absolute;
+  left: 0.8rem;
+  top: 0.9rem;
+  color: white;
+  text-shadow: none; }
+
+.user-post {
+  display: block;
+  min-height: 20rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: .4rem; }
+  .user-post .user-post-main-wrapper {
+    display: flex;
+    flex-wrap: nowrap; }
+    .user-post .user-post-main-wrapper .user-picture {
+      flex: 0 0 39px;
+      border-radius: 100%;
+      background-color: gray; }
+    .user-post .user-post-main-wrapper .user-info {
+      padding-left: 1rem;
+      flex: 1 1 70%; }
+      .user-post .user-post-main-wrapper .user-info .user-name {
+        font-weight: bold;
+        color: #7d7885; }
+      .user-post .user-post-main-wrapper .user-info .user-status {
+        color: #beb9c1; }
+    .user-post .user-post-main-wrapper .user-posted-at {
+      flex: 1 1 auto; }
+      .user-post .user-post-main-wrapper .user-posted-at .icon-posted-at {
+        color: #beb9c1; }
+      .user-post .user-post-main-wrapper .user-posted-at .user-posted-at-hours {
+        color: #beb9c1;
+        margin-left: .5rem; }
+
+.user-post-img img {
+  border-radius: 0.5rem;
+  margin-top: 0.8rem;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 18rem; }
+
+.user-post-content {
+  display: block;
+  color: #beb9c1;
+  margin: .5rem; }
+
+.user-post-social {
+  display: flex;
+  flex-wrap: nowrap; }
+  .user-post-social .user-icon-social-block {
+    flex: 1 1 auto;
+    text-align: center; }
+    .user-post-social .user-icon-social-block .icon-social {
+      color: #beb9c1;
+      padding: .5rem; }
+    .user-post-social .user-icon-social-block:first-child {
+      color: #e44549;
+      font-weight: bolder; }
+      .user-post-social .user-icon-social-block:first-child .icon-social {
+        color: #e44549; }
+
+.ui-page-theme-a .ui-slider-track .ui-btn-active {
+  background-color: #e44549; }
+
+.ui-mobile label {
+  color: #7d7885;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem; }
+
+.ui-shadow-inset {
+  text-shadow: none !important;
+  box-shadow: none !important; }
+
+main {
+  background-color: #f2f1f3; }
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem; }
+
+.content-block {
+  flex: 1 1 400px; }
+
+.panel {
+  background-color: #e44549; }
+
+.close-panel {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #e44549;
+  text-decoration: none;
+  font-size: 1.1rem; }
+
+.ui-page-theme-a .ui-body-inherit {
+  background-color: white; }
+
+.ui-page-theme-a .ui-btn.ui-btn-active {
+  background-color: #ff6c70; }
+  .ui-page-theme-a .ui-btn.ui-btn-active:active {
+    background-color: #ff6c70; }
+
+.profile-box {
+  background-color: #ff6c70;
+  display: block;
+  height: 13.2rem;
+  margin: -0.9rem;
+  padding: 0;
+  margin-bottom: 2rem;
+  padding-top: 2rem; }
+  .profile-box .profile-picture {
+    border-radius: 100%;
+    background-color: gray;
+    height: 125.5px;
+    width: 135px;
+    display: block;
+    margin: 0 auto; }
+  .profile-box .profile-user-title {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    color: white;
+    text-align: center;
+    display: block;
+    text-shadow: none; }
+  .profile-box .profile-user-subtitle {
+    color: #ffc4c6;
+    text-align: center;
+    display: block;
+    text-shadow: none;
+    font-weight: bold; }
+
+.profile-content {
+  display: block; }
+
+.profile-list {
+  list-style-type: none;
+  font-size: 1rem; }
+  .profile-list li {
+    font-weight: bold;
+    margin-top: 1.2rem; }
+    .profile-list li .profile-list-item {
+      margin-left: .5rem; }
+
+.profile-filter {
+  display: block; }
+
+.ui-page-theme-a .ui-body-inherit {
+  border-radius: 0 !important; }
+
+/*# sourceMappingURL=theme.css.map */

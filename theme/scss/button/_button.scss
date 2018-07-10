@@ -1,0 +1,38 @@
+.btn {
+
+  background-color: #e44549;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  margin: .5rem;
+  margin-top: 1.7rem;
+  text-align: center;
+  color: white;
+
+
+&:active {
+  background-color: $pink-active;
+}
+
+}
+
+.btn-lg {
+display: block;
+}
+
+.icon-menu {
+  color: $dark-pink;
+  text-shadow: none;
+  font-size: 1.5rem;
+}
+
+
+.ui-page-theme-a .ui-btn.ui-btn-active {
+  background-color: none;
+
+}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited,
+.ui-page-theme-a .ui-btn {
+ background-color: transparent;
+ border: none;
+}

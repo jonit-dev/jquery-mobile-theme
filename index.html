@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Custom jQuery MObile</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="theme/css/theme.css">
+
+</head>
+<body>
+
+
+
+  <!--MAIN PAGE-->
+  <div data-role="page" id="main">
+    <!-- SIDEMENU -->
+    <div data-role="panel" class="panel" id="mypanel" data-position="right" data-display="overlay">
+
+    <div class="profile-box">
+
+      <a href="#mypanel" data-rel="close" class="close-panel" >
+      <i class="fas fa-times close-panel-icon"></i>
+      </a>
+
+
+          <div class="profile-picture"></div>
+          <div class="profile-user-title">Christine Turner</div>
+          <div class="profile-user-subtitle">Fashion Designer</div>
+    </div>
+    <div class="profile-content">
+      <ul class="profile-list">
+          <li>
+          <i class="fas fa-stream"></i>
+            <span class="profile-list-item">Feed</span>
+          </li>
+
+          <li>
+          <i class="fas fas fa-map-pin"></i>
+            <span class="profile-list-item">Events</span>
+          </li>
+
+          <li>
+          <i class="fas fa-stream"></i>
+            <span class="profile-list-item">Post</span>
+          </li>
+
+          <li>
+          <i class="fas fa-stream"></i>
+            <span class="profile-list-item">Notification</span>
+          </li>
+      </ul>
+    </div>
+
+    <div class="profile-filter">
+
+
+      <form class="ui-filterable">
+          <input id="filterBasic-input" data-type="search">
+      </form>
+      <ul data-role="listview" data-filter="true" data-input="#filterBasic-input">
+          <li>Home</li>
+          <li>Text</li>
+      </ul>
+
+
+
+    </div>
+
+
+    </div>
+    <!-- END SIDEMENU -->
+
+
+
+
+    <header data-role="header" data-position='fixed'>
+      <h1>Custom Theme</h1>
+      <a href="#mypanel" class='ui-btn-right ui-btn ui-btn-inline ui-mini ui-corner-all ui-icon-grid theme-menu-btn'>
+        <i class="fas fa-bars icon-menu"></i>
+      </a>
+
+      <div data-role="navbar" data-grid="c">
+        <ul>
+          <li><a href="#" class="ui-btn-active">
+            <i class="fas fa-home theme-icon"></i> <span class="icon-text">Home</span>
+          </a></li>
+          <li><a href="#textpage">
+            <i class="fa fa-heart theme-icon"></i>
+            <span class="icon-text">Whales</span>
+
+          </a></li>
+          <li><a href="#">
+            <i class="fas fa-kiwi-bird theme-icon"></i>
+            <span class="icon-text">Chicken</span>
+
+          </a></li>
+
+          <li><a href="#">
+            <i class="fas fas fa-bug theme-icon"></i>
+            <span class="icon-text">Bugs</span>
+          </a></li>
+
+        </ul>
+      </div><!-- /navbar -->
+
+    </header><!-- /header -->
+    <main role="main" class="ui-content">
+
+
+      <div data-role="collapsible" data-collapsed-icon="false" data-expanded-icon="false" class="theme-collapsible">
+
+        <h4>  <i class="fas fas fa-caret-right collapsible-icon"></i> <span class="collapsible-title">Sign Up</span></h4>
+        <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+
+        <div class="ui-field-contain">
+          <label for="textinput-fc">First and Last Name:</label>
+          <input type="text" name="textinput-fc" id="textinput-fc" placeholder="Text input" value="">
+        </div>
+
+        <div class="ui-field-contain">
+          <label for="textinput-fc">E-mail address:</label>
+          <input type="email" name="textinput-fc" id="textinput-fc" placeholder="Text input" value="">
+        </div>
+
+
+        <label for="slider-fill">How much do you think that jQuery mobile sucks?</label>
+        <input type="range" name="slider-fill" id="slider-fill" value="99" min="90" max="100" step="1" data-highlight="true">
+
+        <div class="btn btn-lg">Register</div>
+
+      </div>
+
+
+      <div class="user-post">
+
+        <div class="user-post-main-wrapper">
+
+          <div class="user-picture"></div>
+          <div class="user-info">
+            <div class="user-name">James Wilson</div>
+            <div class="user-status">posted</div>
+          </div>
+          <div class="user-posted-at">
+            <i class="far fa-clock icon-posted-at"></i>
+            <span class="user-posted-at-hours">2h</span>
+          </div>
+        </div>
+
+
+        <div class="user-post-img">
+          <img src="https://picsum.photos/500/500/?random" alt="post image">
+        </div>
+
+        <div class="user-post-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quia.
+        </div>
+
+        <div class="user-post-social">
+
+          <div class="user-icon-social-block">
+            <i class="fas fa-heart icon-social"></i>
+            <span class="icon-social-text">2K</span>
+          </div>
+          <div class="user-icon-social-block">
+            <i class="fas fa-comments icon-social"></i>
+            <!-- <span class="icon-social-text"></span> -->
+          </div>
+          <div class="user-icon-social-block">
+            <i class="fas fa-share-alt icon-social"></i>
+            <!-- <span class="icon-social-text"></span> -->
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="user-post">
+
+        <div class="user-post-main-wrapper">
+
+          <div class="user-picture"></div>
+          <div class="user-info">
+            <div class="user-name">James Wilson</div>
+            <div class="user-status">posted</div>
+          </div>
+          <div class="user-posted-at">
+            <i class="far fa-clock icon-posted-at"></i>
+            <span class="user-posted-at-hours">2h</span>
+          </div>
+        </div>
+
+
+        <div class="user-post-img">
+          <img src="https://picsum.photos/500/500/?random" alt="post image">
+        </div>
+
+        <div class="user-post-content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quia.
+        </div>
+
+        <div class="user-post-social">
+
+          <div class="user-icon-social-block">
+            <i class="fas fa-heart icon-social"></i>
+            <span class="icon-social-text">2K</span>
+          </div>
+          <div class="user-icon-social-block">
+            <i class="fas fa-comments icon-social"></i>
+            <!-- <span class="icon-social-text"></span> -->
+          </div>
+          <div class="user-icon-social-block">
+            <i class="fas fa-share-alt icon-social"></i>
+            <!-- <span class="icon-social-text"></span> -->
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+
+
+  </div>
+  <!-- END MAIN PAGE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- TEXT PAGE -->
+  <div data-role="page" id="textpage" data-theme="a">
+
+    <div data-role="header">
+      <h1>Text</h1>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+
+    <div class="content-wrapper">
+      <div class="content-block">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At qui cum magnam totam atque aut est, illum animi illo officia.</p>
+      </div>
+
+      <div class="content-block">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At qui cum magnam totam atque aut est, illum animi illo officia.</p>
+      </div>
+
+    </div>
+
+
+
+
+
+
+      <p><a href="#main" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to  main page</a></p>
+
+    </div><!-- /content -->
+
+
+  </div>
+  <!-- END TEXT PAGE -->
+
+
+
+
+
+
+
+
+  </html>

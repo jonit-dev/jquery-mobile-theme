@@ -1,0 +1,96 @@
+.user-post {
+  display: block;
+  min-height: 20rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: .4rem;
+
+.user-post-main-wrapper {
+
+  display: flex;
+  flex-wrap: nowrap;
+
+  .user-picture {
+      flex: 0 0 39px;
+
+    border-radius: 100%;
+    background-color: gray;
+  }
+  .user-info {
+    padding-left: 1rem;
+    flex: 1 1 70%;
+
+    .user-name {
+      font-weight: bold;
+      color: $dark-gray;
+    }
+
+    .user-status {
+      color: $gray;
+    }
+
+  }
+
+  .user-posted-at {
+    flex: 1 1 auto;
+
+    .icon-posted-at {
+      color: $gray;
+    }
+
+    .user-posted-at-hours {
+      color: $gray;
+      margin-left: .5rem;
+    }
+
+  }
+}
+}
+
+
+.user-post-img img {
+  border-radius: 0.5rem;
+      margin-top: 0.8rem;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 18rem;
+
+}
+
+.user-post-content {
+  display: block;
+  color: $gray;
+  margin: .5rem;
+}
+.user-post-social {
+  display: flex;
+  flex-wrap: nowrap;
+
+.user-icon-social-block {
+  flex: 1 1 auto;
+  text-align: center;
+
+
+      .icon-social {
+
+        color: $gray;
+        padding: .5rem;
+
+
+      }
+      &:first-child {
+        .icon-social {
+        color: $dark-pink;
+        }
+        color: $dark-pink;
+        font-weight: bolder;
+      }
+}
+
+
+
+}
